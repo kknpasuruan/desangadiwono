@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Ngadiwono</title>
+
+    <!-- CSS Internal -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            color: #2e8b57;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #2e8b57;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat datang di Desa Ngadiwono</h1>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#wisata">Wisata</a></li>
+                <li><a href="#harga">Harga Tiket</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Beranda Section -->
+    <section id="beranda">
+        <img src="images/bromo.png" alt="Bromo">
+        <h2>Desa Ngadiwono</h2>
+        <p>Selamat datang di desa kami yang indah dekat Bromo. Nikmati keindahan alam kami!</p>
+    </section>
+
+    <!-- Wisata Section -->
+    <section id="wisata">
+        <h2>Tour De Village</h2>
+        <p>Wisata alam yang menakjubkan di sekitar Bromo. Nikmati perjalanan di desa yang tenang ini.</p>
+        <!-- Gambar bisa disertakan sebagai Data URL atau gambar eksternal -->
+        <img src="data:image/jpeg;base64, /9j/4AAQSkZJRgABAQEAAAAAAAD/..." alt="Bromo">
+    </section>
+
+    <!-- Harga Tiket Section -->
+    <section id="harga">
+        <h2>Pricelist</h2>
+        <p>Berikut adalah harga tiket untuk wisata di Desa Ngadiwono:</p>
+        <ul>
+            <li>Paket Biasa : Rp 10.000</li>
+            <li>Paket + Bromo: Rp 5.000</li>
+        </ul>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Untuk informasi lebih lanjut, silakan hubungi kami di:</p>
+        <p>Email: info@ngadiwono.com</p>
+        <p>Telp: +62 812-3456-7890</p>
+    </section>
+
+    <!-- JavaScript Internal -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            alert("Selamat datang di website Desa Ngadiwono!");
+        });
+    </script>
+</body>
+</html>
